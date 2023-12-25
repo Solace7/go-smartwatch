@@ -22,7 +22,7 @@ func main() {
 	watch.FillRectangle(width/2-size/2, height/2-size/2, size, size, color.RGBA{255, 255, 0, 255})
 
 	// Draw some text on the screen.
-	msg := []byte("Hello watch!")
+	msg := ("Hello watch!")
 	textWidth, _ := tinyfont.LineWidth(&tinyfont.Org01, msg)
 	tinyfont.WriteLine(watch, &tinyfont.Org01, width/2-int16(textWidth/2), 30, msg, color.RGBA{255, 0, 0, 255})
 
