@@ -6,9 +6,9 @@ import (
 	"image/color"
 	"time"
 
-	"github.com/aykevl/go-smartwatch"
-	"github.com/conejoninja/tinyfont"
-	"github.com/conejoninja/tinyfont/freemono"
+	"github.com/Solace7/go-smartwatch"
+	"tinygo.org/x/tinyfont"
+	"tinygo.org/x/tinyfont/freemono"
 )
 
 var watch *smartwatch.Watch

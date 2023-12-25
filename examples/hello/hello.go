@@ -6,8 +6,8 @@ import (
 	"image/color"
 	"time"
 
-	"github.com/aykevl/go-smartwatch"
-	"github.com/conejoninja/tinyfont"
+	"github.com/Solace7/go-smartwatch"
+	"tinygo.org/x/tinyfont"
 )
 
 var watch *smartwatch.Watch
